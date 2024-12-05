@@ -1,63 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Christmas Story Fair</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
         <nav class="navbar">
-            <div class="logo"><a href="index.html">Christmas Story Fair</a></div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="story.html">Illustrative Stories</a></li>
-                <li><a href="nativity.html">Nativity Museum</a></li>
-                <li><a href="photoshoots.html">Photo Shoots</a></li>
-                <li><a href="game.html">Christmas Shop</a></li>
-            </ul>
+          <div class="logo_wrapper">
+            <img
+              class="logo"
+              src="./assets/fwc-logo.avif"
+              alt="Family Word Centre's Logo"
+            />
+            <span>Christmas Story Fair</span>
+          </div>
         </nav>
-    </header>
+      </header>
 
-    <div class="container">
-        <section class="hero">
-            <h1>Welcome to the Christmas Story Fair!</h1>
-            <p>Join us this December 21-22 for a magical Christmas experience.</p>
-        </section>
-        <section class="event-details">
-            <div class="info">
-                <img src="" alt="Illustrative Stories">
-                <h3><a href="story.html">Illustrative Stories</a></h3>
-                <p>Experience the magic of Christmas tales told through beautiful illustrations.</p>
-            </div>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>Welcome to the Christmas Story Fair!</h1>
+          <p>Join us this December 21-22 for a magical Christmas experience.</p>
+        </div>
+      </section>
 
-            <div class="info">
-                <img src="" alt="Nativity Museum">
-                <h3><a href="nativity.html">Nativity Museum</a></h3>
-                <p>Explore a collection of nativity scenes and artifacts that tell the first Christmas story.</p>
-            </div>
+      <!-- Events Section -->
+      <section id="events" class="events">
+        <h2>Event Highlights</h2>
+        <div class="event-details">
+          <div class="info">
+            <img src="./assets/xmas-gift.jpg" alt="Illustrative Stories" />
+            <h3><a href="">Illustrative Stories</a></h3>
+            <p>
+              Experience the magic of Christmas tales told through beautiful
+              illustrations.
+            </p>
+          </div>
+          <div class="info">
+            <img src="./assets/img-02.jpg" alt="Nativity Museum" />
+            <h3><a href="">Nativity Museum</a></h3>
+            <p>
+              Explore a collection of nativity scenes and artifacts that tell
+              the first Christmas story.
+            </p>
+          </div>
+          <div class="info">
+            <img src="./assets/img-03.jpg" alt="Family Photo Shoots" />
+            <h3><a href="">Family Photo Shoots</a></h3>
+            <p>
+              Capture the holiday spirit with festive backdrops and beautiful
+              family photos.
+            </p>
+          </div>
+          <div class="info">
+            <img src="./assets/xmas-gift.jpg" alt="Christmas Gift" />
+            <h3><a href="">Christmas Gift</a></h3>
+            <p>
+              Find unique gifts, decorations, and treats to bring home the
+              holiday spirit.
+            </p>
+          </div>
+        </div>
+      </section>
 
-            <div class="info">
-                <img src="" alt="Family Photo Shoots">
-                <h3><a href="photoshoots.html">Family Photo Shoots</a></h3>
-                <p>Capture the holiday spirit with festive backdrops and beautiful family photos.</p>
+      <!-- Stories Section -->
+      <section id="stories" class="story-section">
+        <div class="story-wrapper">
+          <div class="story-hero">
+            <h2>Illustrative Christmas Stories</h2>
+            <p>
+              Delve into enchanting tales brought to life through stunning
+              illustrations.
+            </p>
+          </div>
+          <div class="stories">
+            <div class="story">
+              <img src="./assets/img-03.jpg" alt="The First Christmas" />
+              <h3>The First Christmas</h3>
+              <p>
+                Discover the nativity story retold through captivating
+                illustrations.
+              </p>
             </div>
+            <div class="story">
+              <img src="./assets/img-03.jpg" alt="Snowman's Tale" />
+              <h3>Snowman's Tale</h3>
+              <p>A heartwarming tale of friendship during Christmas.</p>
+            </div>
+            <div class="story">
+              <img src="./assets/img-03.jpg" alt="Reindeer Adventure" />
+              <h3>Reindeer Adventure</h3>
+              <p>A magical journey through the snowy lands of Christmas.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="info">
-                <img src="" alt="Game">
-                <h3><a href="game.html">Christmas Shop</a></h3>
-                <p>Find unique gifts, decorations, and treats to bring home the holiday spirit.</p>
-            </div>
-        </section>
-    </div>
+      <!-- Nativity Museum Section -->
+      <section id="museum" class="museum-section">
+        <h2>Nativity Museum</h2>
+        <p>
+          Discover the history and beauty of nativity scenes, each telling the
+          story of the first Christmas in unique ways.
+        </p>
+        <div class="museum-gallery">
+          <div class="museum">
+            <img src="./assets/img-08.jpg" alt="Ancient Nativity" />
+            <h3>Ancient Nativity</h3>
+            <p>An 18th-century nativity scene showcasing timeless artistry.</p>
+          </div>
+          <div class="museum">
+            <img src="./assets/img-08.jpg" alt="Modern Interpretation" />
+            <h3>Modern Interpretation</h3>
+            <p>
+              An abstract take on the nativity blending tradition with modern
+              art.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Photoshoots Section -->
+      <section id="photos" class="photoshoot-section">
+        <h2>Photo Shoots</h2>
+        <p>Capture magical moments with loved ones in our festive studios.</p>
+        <div class="photoshoots">
+          <div class="photo">
+            <img src="./assets/img-09.jpg" alt="" />
+            <h3>Classic Christmas</h3>
+            <p>A warm, traditional setting for your family portraits.</p>
+          </div>
+          <div class="photo">
+            <img src="" alt="" />
+            <h3>Festive Fun</h3>
+            <p>A cheerful setting perfect for families and kids.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Game Section -->
+      <section id="game" class="game-section">
+        <h2>Fun Fair</h2>
+        <p>
+          Win unique gifts, decorations, and treats to celebrate the season.
+        </p>
+        <div class="win-gallery">
+          <div class="win-item">
+            <img src="./assets/xmas-gift.jpg" alt="Handmade Ornaments" />
+            <h3>Handmade Ornaments</h3>
+            <p>Beautifully crafted ornaments to adorn your Christmas tree.</p>
+          </div>
+          <div class="win-item">
+            <img src="./assets/xmas-gift.jpg" alt="Christmas Candles" />
+            <h3>Christmas Candles</h3>
+            <p>Fill your home with warm, festive scents.</p>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer>
-        <p>For more information, contact us at: +234 808 920 4597 or 08181953684</p>
-        <p>Follow us on Instagram: @familywordcentre</p>
+      <p>
+        Contact us at: <br> <a href="tel:+2348089204597">+234 808 920 4597</a> |
+        <a href="mailto:familywordcentreng@gmail.com">familywordcentreng@gmail.com</a>
+      </p>
+      <p>
+        Follow us on Instagram:
+        <a href="https://instagram.com/familywordcentre" target="_blank"
+          >@familywordcentre</a
+        >
+      </p>
     </footer>
-
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
