@@ -1,6 +1,6 @@
 # christmasstory
 
-Christmas Story Fair Date: December 21-22 Time: 10:00 AM – 5:00 PM Venue: Family Word Centre, Plot 4 Block 5, Admiralty Road, Lekki (Beside LG Showroom, After Christ Avenue)
+<!-- Christmas Story FairDate: December 21-22Time: 10:00 AM – 5:00 PMVenue: Family Word Centre, Plot 4 Block 5, Admiralty Road, Lekki (Beside LG Showroom, After Christ Avenue)
 This December, immerse your family in the magic of Christmas at the Christmas Story Fair! Join us for two days of festive fun, creative storytelling, and heartwarming holiday activities. Perfect for families and friends, this event brings the Christmas story to life with a variety of attractions, all designed to bring joy, reflection, and cheer.
 Event Highlights:
 * Illustrative Stories: Experience Christmas tales told through beautiful illustrations, bringing the magic of the season to life in captivating ways.
@@ -21,4 +21,4 @@ For more information, please contact us at
 
 With a few pictures 
 Let’s do a small sits for people to click and see what the event is all about 
-That is what I was saying
+That is what I was saying -->
