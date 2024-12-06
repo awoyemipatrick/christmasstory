@@ -93,7 +93,7 @@ header {
     text-align: center;
 }
 
-.events h2, .story-section h2, .museum-section h2, .photoshoot-section h2, .game-section h2 {
+.events h1{
     margin-bottom: 1rem;
     font-size: 2rem;
     color: #d32f2f;
