@@ -68,9 +68,9 @@ header {
     padding: 2rem;
     background: linear-gradient(
         45deg,
-        rgba(230, 57, 70, 0.8),
-        rgba(108, 192, 112, 0.8),
-        rgba(255, 215, 0, 0.8),
+        rgba(209, 91, 101, 0.8),
+        rgba(163, 192, 165, 0.8),
+        rgba(245, 230, 146, 0.8),
         rgba(255, 255, 255, 0.8)
     );
     border-radius: 8px;
